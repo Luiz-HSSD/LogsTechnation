@@ -15,7 +15,7 @@ namespace LogsTechnation.Controllers
     public class LogMinhaCdnController : ControllerBase
     {
         public static ILogMinhaCdnService _service { private get; set; } = new LogMinhaCdnService();
-
+        
         [HttpGet]
         public ActionResult<IEnumerable<LogMinhaCdn>> Get()
         {

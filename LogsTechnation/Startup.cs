@@ -61,6 +61,8 @@ namespace LogsTechnation
                 c.RoutePrefix = string.Empty;
             });
             app.UseHttpsRedirection();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }

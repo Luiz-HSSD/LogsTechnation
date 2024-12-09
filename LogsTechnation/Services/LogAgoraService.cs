@@ -40,10 +40,10 @@ namespace LogsTechnation.Services
             db.SaveChanges();
             string pathCompleto = path + Guid.NewGuid() + ".txt";
             System.IO.File.WriteAllText(pathCompleto, logAgora.log);
-
+            var pathCompletoWeb = pathCompleto.Replace(".\\wwwroot", "https://localhost:44395").Replace("\\", "/");
             return new RetornoTransformaLog() { 
                 LogMudado =logAgora.log,
-                path=pathCompleto,
+                path= pathCompletoWeb,
             };
         }
 

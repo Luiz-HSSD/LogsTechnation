@@ -1,4 +1,5 @@
-﻿using LogsTechnation.Model;
+﻿using AutoFixture;
+using LogsTechnation.Model;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 using Moq.EntityFrameworkCore;

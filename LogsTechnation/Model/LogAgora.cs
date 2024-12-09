@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 
 namespace LogsTechnation.Model
 {
@@ -17,7 +18,7 @@ namespace LogsTechnation.Model
 
             retorno += entradas[3].Replace("\"","") + " ";
 
-            retorno += Math.Round( double.Parse(entradas[4])) + " ";
+            retorno += Math.Round(double.Parse(entradas[4],CultureInfo.GetCultureInfo("en-US"))) + " ";
             
             retorno += entradas[0] + " ";
 

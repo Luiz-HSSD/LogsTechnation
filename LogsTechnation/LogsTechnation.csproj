@@ -9,13 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\logs\82c6cc25-47b4-4080-b3dd-52b17a83cb30.txt" />
-    <None Include="wwwroot\logs\8db4c530-ce39-49b4-a40d-180fbc8213c3.txt" />
-    <None Include="wwwroot\logs\a22b19ca-1d96-4b41-bcff-7f01dc604ee4.txt" />
-    <None Include="wwwroot\logs\a436fa74-044d-4bbe-945e-282aaa43a5ac.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />
